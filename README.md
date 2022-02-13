@@ -20,6 +20,7 @@
  To have a local end point for ethereum, use ganache using
  <br>
  ```
+ npm install -g ganache 
  ganache
  ```
  <br>
