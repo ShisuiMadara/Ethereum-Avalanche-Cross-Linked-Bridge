@@ -17,11 +17,11 @@
  
  
  <h2><strong>Getting Started</strong></h2>
- <ul>
  
- <li>Initialise truffle using
+ 
+ Initialise truffle using
  <br>
- ```truffle init ```<li>
+ ```truffle init ```
  
  To install and use ganache
  <br>
@@ -41,5 +41,5 @@
  <br>
  ```truffle migrate --reset --network avaTestnet```
   
-  <ul>
+
   
