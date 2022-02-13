@@ -21,7 +21,9 @@
  
  Initialise truffle using
  <br>
- ```truffle init ```
+ ```
+ truffle init 
+ ```
  
  To install and use ganache
  <br>
@@ -35,11 +37,15 @@
  
  To deploy on the Ethereum Test Net, 
  <br>
- ```truffle migrate --reset --network ethTestnet```
+ ```
+ truffle migrate --reset --network ethTestnet
+ ```
  
  To deploy on the Avalanche Test Net,
  <br>
- ```truffle migrate --reset --network avaTestnet```
+ ```
+ truffle migrate --reset --network avaTestnet
+ ```
   
 
   
