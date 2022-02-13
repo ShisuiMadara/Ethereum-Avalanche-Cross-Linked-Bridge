@@ -19,7 +19,7 @@
  <h2><strong>Getting Started</strong></h2>
  To have a local end point for ethereum, use ganache using
  <br>
- ```ganache```
+ ``` ganache ```
  <br>
  This will provide the mnemonic along with accounts and private key
  
