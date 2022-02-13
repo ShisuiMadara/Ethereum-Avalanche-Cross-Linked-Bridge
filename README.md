@@ -18,8 +18,6 @@
  
  <h2><strong>Getting Started</strong></h2>
  
- This will provide the mnemonic along with accounts and private key
- 
  Initialise truffle using
  <br>
  ```truffle init ```
@@ -31,6 +29,8 @@
   ganache
   
   ```
+   
+ This will provide the mnemonic along with accounts and private key
  
  To deploy on the Ethereum Test Net, 
  <br>
