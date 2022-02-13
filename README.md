@@ -20,6 +20,7 @@
  To have a local end point for ethereum, use ganache using
  <br>
  ```ganache```
+ <br>
  This will provide the mnemonic along with accounts and private key
  
  Initialise truffle using
