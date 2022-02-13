@@ -18,15 +18,19 @@
  
  <h2><strong>Getting Started</strong></h2>
  To have a local end point for ethereum, use ganache using
+ <br>
  ```ganache```
  This will provide the mnemonic along with accounts and private key
  
  Initialise truffle using
+ <br>
  ```truffle init ```
  
  To deploy on the Ethereum Test Net, 
+ <br>
  ```truffle migrate --reset --network ethTestnet```
  
  To deploy on the Avalanche Test Ne,
+ <br>
  ```truffle migrate --reset --network avaTestnet```
   
