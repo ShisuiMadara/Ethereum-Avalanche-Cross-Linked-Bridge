@@ -18,11 +18,11 @@
  
  <h2><strong>Getting Started</strong></h2>
  
- <li>Initialise truffle using</li>
+ Initialise truffle using
  <br>
  ```truffle init ```
  
- <li>To install and use ganache</li>
+ To install and use ganache
  <br>
   ```
   npm install -g ganache
@@ -32,11 +32,11 @@
    
  This will provide the mnemonic along with accounts and private key
  
- <li>To deploy on the Ethereum Test Net, <li>
+ To deploy on the Ethereum Test Net, 
  <br>
  ```truffle migrate --reset --network ethTestnet```
  
- <li>To deploy on the Avalanche Test Net,</li>
+ To deploy on the Avalanche Test Net,
  <br>
  ```truffle migrate --reset --network avaTestnet```
   
