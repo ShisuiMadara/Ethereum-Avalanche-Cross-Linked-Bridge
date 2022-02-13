@@ -1,0 +1,429 @@
+{
+  "contractName": "IToken",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"burn\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Itoken.sol\":\"IToken\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Itoken.sol\":{\"keccak256\":\"0xe898427f4bf691cdba0783669f1c3c90f5de07ecd2041f4d4475432e10c91cee\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://955f33b2ebcfec24383bea297c15d6400a75ce95b6de6c296845c522c882854a\",\"dweb:/ipfs/QmQeCXMCqnY2FqwLmqw6rz27WU9vUZkLmFRG2Wfkh7uKcE\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface IToken {\n  function mint(address to, uint amount) external;\n  function burn(uint tokenId) external;\n}",
+  "sourcePath": "/home/shisuimadara/avalanche-eth-bridge/contracts/Itoken.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Itoken.sol",
+    "exportedSymbols": {
+      "IToken": [
+        1893
+      ]
+    },
+    "id": 1894,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1880,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IToken",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1893,
+        "linearizedBaseContracts": [
+          1893
+        ],
+        "name": "IToken",
+        "nameLocation": "67:6:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "40c10f19",
+            "id": 1887,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mint",
+            "nameLocation": "87:4:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1885,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1882,
+                  "mutability": "mutable",
+                  "name": "to",
+                  "nameLocation": "100:2:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1887,
+                  "src": "92:10:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1881,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "92:7:12",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1884,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "109:6:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1887,
+                  "src": "104:11:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1883,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "104:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "91:25:12"
+            },
+            "returnParameters": {
+              "id": 1886,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:0:12"
+            },
+            "scope": 1893,
+            "src": "78:48:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "42966c68",
+            "id": 1892,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "burn",
+            "nameLocation": "138:4:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1890,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1889,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "148:7:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1892,
+                  "src": "143:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1888,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "143:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "142:14:12"
+            },
+            "returnParameters": {
+              "id": 1891,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "165:0:12"
+            },
+            "scope": 1893,
+            "src": "129:37:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1894,
+        "src": "57:111:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:136:12"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Itoken.sol",
+    "exportedSymbols": {
+      "IToken": [
+        1893
+      ]
+    },
+    "id": 1894,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1880,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IToken",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1893,
+        "linearizedBaseContracts": [
+          1893
+        ],
+        "name": "IToken",
+        "nameLocation": "67:6:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "40c10f19",
+            "id": 1887,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "mint",
+            "nameLocation": "87:4:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1885,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1882,
+                  "mutability": "mutable",
+                  "name": "to",
+                  "nameLocation": "100:2:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1887,
+                  "src": "92:10:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1881,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "92:7:12",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1884,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "109:6:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1887,
+                  "src": "104:11:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1883,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "104:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "91:25:12"
+            },
+            "returnParameters": {
+              "id": 1886,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:0:12"
+            },
+            "scope": 1893,
+            "src": "78:48:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "42966c68",
+            "id": 1892,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "burn",
+            "nameLocation": "138:4:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1890,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1889,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "148:7:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1892,
+                  "src": "143:12:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1888,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "143:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "142:14:12"
+            },
+            "returnParameters": {
+              "id": 1891,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "165:0:12"
+            },
+            "scope": 1893,
+            "src": "129:37:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1894,
+        "src": "57:111:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:136:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-02-13T06:51:17.886Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
