@@ -24,11 +24,19 @@
  <br>
  ```truffle init ```
  
+ To install and use ganache
+ <br>
+  ```
+  npm install -g ganache
+  ganache
+  
+  ```
+ 
  To deploy on the Ethereum Test Net, 
  <br>
  ```truffle migrate --reset --network ethTestnet```
  
- To deploy on the Avalanche Test Ne,
+ To deploy on the Avalanche Test Net,
  <br>
  ```truffle migrate --reset --network avaTestnet```
   
